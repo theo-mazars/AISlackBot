@@ -1,0 +1,21 @@
+{
+  "name": "ai-slack-bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:theo-mazars/AISlackBot.git",
+  "author": "Theo Mazars <theo.mazars@epitech.eu>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@slack/web-api": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "perspective-api-client": "^3.1.0",
+    "slackbots": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
